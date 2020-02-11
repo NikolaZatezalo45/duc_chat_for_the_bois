@@ -1,5 +1,5 @@
 html {
-  background: url(https://steamuserimages-a.akamaihd.net/ugc/845965352745946300/6FB364968F7AFD89003F642441E5AF4FADC42A52/);
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTQDnGluT90BdXbWFIYlrp5zj3b3no75VUeUKZv8X6S6_TtltUK);
 }
 
 .form-container {
@@ -33,49 +33,48 @@ html {
   tr {
     text-align: center;
   }
-
-  .actions {
-    padding: 1rem 1rem;
-    width: 40%;
-    display: flex;
-    input {
-      width: 200px;
-      border: 1px solid #000000;
-      background-color: whitesmoke;
-      padding: 14px 28px;
-      font-size: 16px;
-      font-weight: bold;
-      cursor: pointer;
-      text-align: center;
-    }
+}
+.actions {
+  padding: 1rem 1rem;
+  width: 40%;
+  display: flex;
+  input {
+    width: 200px;
+    border: 1px solid #000000;
+    background-color: whitesmoke;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
   }
-  .btn-1 {
-    width: 100%;
-    padding: 0rem 1rem;
-  }
-  .btn-2 {
-    width: 100%;
-    margin: -80px 15rem;
-  }
-  .btn-1:hover {
-    input {
-      transition: 0.75s;
-      background-color: black;
-      color: white;
-    }
-    font-size: 20px;
+}
+.btn-1 {
+  width: 100%;
+  padding: 0rem 1rem;
+}
+.btn-2 {
+  width: 100%;
+  margin: -80px 15rem;
+}
+.btn-1:hover {
+  input {
     transition: 0.75s;
+    background-color: black;
+    color: white;
   }
-  .btn-2:hover {
-    input {
-      transition: 0.75s;
-      background-color: black;
-      color: white;
-    }
-    font-size: 20px;
+  font-size: 20px;
+  transition: 0.75s;
+}
+.btn-2:hover {
+  input {
     transition: 0.75s;
+    background-color: black;
+    color: white;
   }
-  .field {
-    padding: 0rem 2rem;
-  }
+  font-size: 20px;
+  transition: 0.75s;
+}
+.field {
+  padding: 0rem 2rem;
 }
